@@ -1,0 +1,360 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*breadcrumb*/
+
+.breadcrumb-item{
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 40px;
+}
+
+/*breadcrumb over*/
+nav ul li{
+	padding-left: 20px;
+}
+
+nav ul li a:hover{
+	color: red;
+}
+
+/*section 1*/
+
+#section1{
+	padding-top: 50px;
+	padding-bottom: 40px;
+	padding-left: 100px;
+}
+
+#section1 span,.ulfor{
+	text-decoration: underline;
+	text-decoration-color: green;
+}
+
+h2::after{
+	content: ' ';
+	height: 3px;
+	width: 10px;
+	color: red;
+}
+
+#text{
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+
+#btn1{
+	text-transform: capitalize;
+	font-weight: bold;
+	width: 300px;
+	padding: 10px;
+	border: 3px solid green;
+}
+
+/*section 3*/
+
+.section2{
+    padding: 0 0 80px;
+    position: relative;
+}
+
+.section2:before {
+    position: absolute;
+    top: 800;
+    left: 0;
+    width: 100%;
+    height: 61%;
+    background: rgba(0,0,0,.5);
+    content: '';
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.section2:after {
+    background: url("images/img2.jpg") no-repeat;
+}
+
+.section2:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 61%;
+    content: '';
+    background-size: cover!important;
+    background-attachment: fixed!important;
+}
+
+#gallryUpImg{
+	height: 100px;
+	background: url(images/img2.jpg) no-repeat 0px 0px;
+    padding: 100px 0;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	/*opacity: 0.5;*/
+    background-attachment: fixed;
+}
+
+.holder{
+	padding-top: 40px;
+	padding-bottom: 30px;
+	text-align: center;
+	z-index: 1;
+}
+
+.holder h2,.holder p{
+	color: balck;
+	font-weight: bold;
+}
+
+.images{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 20px 10px;
+}
+
+.images img{
+	width: 100%;
+  	max-width: 250px;
+  	height: 300px;
+  	object-fit: cover;
+  	border-radius: 10px;
+  	z-index: 1;
+}
+
+.holders4{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.holderp{
+	padding : 0 100px;
+	text-align: center;
+}
+
+
+/*section 5*/
+.whyBook{
+	margin: 200px auto;
+	text-align: center;
+}
+
+.section5{
+    padding: 0 0 80px;
+    position: relative;
+}
+
+.section5:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 100%;
+    background: rgba(0,0,0,.1);
+    content: '';
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.section5:after {
+    background: url("images/img2.jpg") no-repeat;
+}
+
+.section5:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 100%;
+    content: '';
+    background-size: cover!important;
+    background-attachment: fixed!important;
+}
+
+/* Section 6 Counter */
+
+.section6{
+    padding: 0 0 80px;
+    position: relative;
+}
+
+.section6:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.1);
+    content: '';
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.section6:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-size: cover!important;
+    background-attachment: fixed!important;
+}
+
+.stats-info {
+	text-align: center;
+}
+
+.stats-grid {
+	font-size: 60px;
+	font-weight: 400;
+	color: black;
+	margin-bottom: 10px;
+}
+
+h4.stats-info {
+	margin-top: 10px;
+	color: black;
+}
+
+.circle{
+	margin-top: 100px;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 25px;
+	float: left;
+}
+
+
+/* Section 7 */
+
+.address{
+	color: black;
+}
+
+.section7{
+    padding: 0 0 80px;
+    position: relative;
+}
+
+.section7:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.1);
+    content: '';
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.section7:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-size: cover!important;
+    background-attachment: fixed!important;
+}
+
+
+
+/* About us */
+.abouth1{
+	padding-left: 100px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.aboutp , .contactp{
+	padding-left: 100px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+
+/*contact us*/
+.contacth1{
+	padding-left: 100px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.contactPage{
+	margin-top: -30px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+	justify-content: center;
+}
+
+
+
+/* @media query for responsive*/
+
+@media (max-width: 767px){
+
+	.whyBook{
+		margin: 150px auto;
+		text-align: center;
+	}
+
+	.section5:before {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 30%;
+	    background: rgba(0,0,0,.1);
+	    content: '';
+	    z-index: 1;
+	    opacity: 0.5;
+	}
+
+	.section5:after {
+	    background: url("images/img2.jpg") no-repeat;
+	}
+
+	.section5:after {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 30%;
+	    content: '';
+	    background-size: cover!important;
+	    background-attachment: fixed!important;
+	}
+
+}
+
+/*WhatsApp Icon*/
+.open-button {
+	width: 60px;
+  	height: 60px;
+	background: green;
+	font-size: 36px;
+  	color: white;
+  	padding: 2px 3px;
+  	border-radius: 20px;
+  	border: none;
+  	cursor: pointer;
+  	opacity: 0.8;
+  	position: fixed;
+  	bottom: 23px;
+  	right: 28px;
+}
